@@ -2,7 +2,7 @@ workflows:
   my-workflow:
     environment:
       node: 16.9.0
-      npm: latest
+
 
     scripts:
       - name: Run iOS tests
