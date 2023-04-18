@@ -1,5 +1,4 @@
 workflows:
-     test_report: build/ios/test/*.xml
  
   android-workflow:
     name: Android Workflow
