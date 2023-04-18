@@ -3,7 +3,7 @@ workflows:
   android-workflow:
     name: Android Workflow
     instance_type: linux_x2
-    max_build_duration: 0
+    max_build_duration: 120
     
     scripts:
       - name: Run iOS tests
