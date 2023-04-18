@@ -2,7 +2,7 @@ workflows:
  
   android-workflow:
     name: Android Workflow
-    instance_type: linux_x2
+    instance_type: linux
     max_build_duration: 120
     
     scripts:
